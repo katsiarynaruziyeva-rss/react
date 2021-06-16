@@ -45,7 +45,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - Внутри `<Header /> ` - `<button>Open Menu</button>`
 - Внутри `<Menu />` - `<button>Close Menu</button>`
-- Везде должны быть подключены стили (css)
+- Везде должны быть m подключены стили (css)
 
 ### `npm run eject`
 
