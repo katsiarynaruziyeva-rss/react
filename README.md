@@ -29,6 +29,24 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+# React Base
+
+```js
+<div>
+  <Header title="Header text" openMenu={handleMenuOpen} />
+
+  <Menu isOpen={isOpen} closeMenu={handleMenuOpen} />
+
+  <Main text="Main text" />
+
+  <Footer />
+</div>
+```
+
+- Внутри `<Header /> ` - `<button>Open Menu</button>`
+- Внутри `<Menu />` - `<button>Close Menu</button>`
+- Везде должны быть подключены стили (css)
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
